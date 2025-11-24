@@ -12,8 +12,14 @@ This repo demonstrates real-world networking automation: multi-device execution,
 - Saves device outputs into `/outputs`  
 - Logs every action into `/logs/automation.log`  
 - Uses `devices.json` inventory (scales easily)
+- SSH reachability check before connecting (fast fail)
+- Automatic running-config backup before config push
+- Per-command timeout protection  
 
 ---
 
 ## 📂 Project Structure
+- backups/            # Auto-created running-config backups
+
+
 
