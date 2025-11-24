@@ -9,3 +9,4 @@ venv/
 # Tool outputs
 outputs/
 logs/
+reports/
