@@ -1,0 +1,4 @@
+interface loopback 99
+description Configured by Ivan's Automation Tool
+ip address 99.99.99.99 255.255.255.255
+no shutdown
